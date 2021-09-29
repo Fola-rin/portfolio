@@ -43,6 +43,7 @@ Table of Content:
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 html {
@@ -155,8 +156,8 @@ button:focus {
 }
 .logo_h {
 	color: #fff !important;
-	font-family: "Pacifico", cursive;
-	font-size: 24px;
+	font-family: "Oleo Script", cursive;
+	font-size: 32px;
 }
 .mynav {
 	background-color: #01304c !important;
