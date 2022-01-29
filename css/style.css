@@ -3496,6 +3496,7 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 }
 .h_gallery_item .g_item_text {
 	text-align: center;
