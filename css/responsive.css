@@ -144,8 +144,8 @@
 		cursor: pointer;
 	}
 	.navbar .container {
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.nav {
 		padding: 0px 0px;
@@ -401,6 +401,8 @@
 	.home_banner_area .box_1620 {
 		bottom: -71px;
 		border-radius: 0px;
+		box-shadow: none;
+		padding: 20px;
 	}
 	.home_banner_area {
 		margin-bottom: 71px;
@@ -410,7 +412,7 @@
 		padding: 0px 18px;
 	}
 	.gallery_f_inner {
-		max-width: 340px;
+		max-width: unset;
 		margin: 0px auto -45px;
 	}
 	.blog_categorie_area {
@@ -431,7 +433,7 @@
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
-		padding: 30px 15px;
+		padding: 10px 0;
 		margin-top: 0px;
 	}
 	.banner_content .white_btn {
