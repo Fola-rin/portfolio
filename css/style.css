@@ -3380,6 +3380,7 @@ h6 {
 }
 .personal_text .personal_social {
 	margin-top: 45px;
+	display: flex;
 }
 .personal_text .personal_social li {
 	display: inline-block;
@@ -3389,7 +3390,7 @@ h6 {
 	margin-right: 0px;
 }
 .personal_text .personal_social li a {
-	line-height: 30px;
+	height: 30px;
 	width: 30px;
 	/* background: #e8e8e8; */
 	border-radius: 5px;
@@ -3397,10 +3398,20 @@ h6 {
 	text-align: center;
 	color: #000;
 	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.personal_text .personal_social li a svg {
+	width: 30px;
+	height: 30px;
 }
 .personal_text .personal_social li:hover a {
 	background-color: #000;
 	color: #fff;
+}
+.personal_text .personal_social li:hover a svg path{
+	fill: #fff;
 }
 .main-intro-btns {
 	display: flex;
